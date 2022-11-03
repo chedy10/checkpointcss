@@ -1,0 +1,97 @@
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.topnav{
+      text-align: center;
+      padding: 14px 16px;   
+      font-size: 17px;     
+      font-weight: bold;
+      background-color: rebeccapurple;
+    }    
+ 
+.topnav a{
+    padding: 20px;
+    color: #fff;
+        
+}
+.topnav a:hover{
+    color: blue;
+}
+.about-me{
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.about-me img{
+    border-radius: 50%;
+       padding: 20px;
+}
+.about-me div{
+    margin-top: 80px;
+}
+.services {
+    background-color: red;
+    color: white;
+    opacity:0.3;
+    border: 2px dashed black;
+    border-radius:50px;
+    padding: 50px;
+    margin: 80px;
+    
+}
+.services h3{
+    display: flex;
+    justify-content: center;
+}
+.Lastes-blog {
+    display: inline;
+    border: 50%;
+    padding: 20px;
+}
+.Lastes-blog h4 {
+    display: flex;
+    justify-content: center;
+}
+.box{
+    position:absolute;
+    
+    width:100%;
+    font-family:Helvetica;
+    color:#fff;
+    background:rgba(209, 19, 19, 0.888);
+    padding:30px 0px;
+    
+  }
+.box h5{
+    text-align: center;
+    margin: 30px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box input {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+}
+.box label {
+    display: block;
+    margin: 10px 0px;
+    font-weight:700
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
